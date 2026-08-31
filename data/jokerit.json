@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-08-31T19:23:59.251186+00:00",
+  "updated": "2026-08-31T19:39:07.819347+00:00",
   "games": [
     {
       "id": 2701280,
@@ -18,6 +18,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Vaasan jäähalli I",
       "city": "VAASA"
     },
@@ -35,6 +36,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Rauman jäähalli / Äijänsuo Areena",
       "city": "RAUMA"
     },
@@ -52,6 +54,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Porin jäähalli I",
       "city": "PORI"
     },
@@ -69,6 +72,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -86,6 +90,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -103,6 +108,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -120,6 +126,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -137,6 +144,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tapiolan monitoimiareena",
       "city": "ESPOO"
     },
@@ -154,6 +162,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -171,6 +180,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
       "city": "TAMPERE"
     },
@@ -188,6 +198,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Lappeenrannan jäähalli I",
       "city": "LAPPEENRANTA"
     },
@@ -205,6 +216,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -222,6 +234,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -239,6 +252,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -256,6 +270,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
       "city": "TAMPERE"
     },
@@ -273,6 +288,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Kouvolan jäähalli",
       "city": "KOUVOLA"
     },
@@ -290,6 +306,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Kuopion jäähalli",
       "city": "KUOPIO"
     },
@@ -307,6 +324,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Jyväskylän jäähalli",
       "city": "JYVÄSKYLÄ"
     },
@@ -324,6 +342,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsingin jäähalli I",
       "city": "HELSINKI"
     },
@@ -341,6 +360,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Turun Monitoimihalli Oy",
       "city": "TURKU"
     },
@@ -358,6 +378,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Porin jäähalli I",
       "city": "PORI"
     },
@@ -375,6 +396,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Mikkelin jäähalli",
       "city": "MIKKELI"
     },
@@ -392,6 +414,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Hämeenlinnan jäähalli I",
       "city": "HÄMEENLINNA"
     },
@@ -409,6 +432,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Oulun jäähalli",
       "city": "OULU"
     },
@@ -426,6 +450,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -443,6 +468,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Lappeenrannan jäähalli I",
       "city": "LAPPEENRANTA"
     },
@@ -460,6 +486,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -477,6 +504,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Lahden jäähalli",
       "city": "LAHTI"
     },
@@ -494,6 +522,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -511,6 +540,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Jyväskylän jäähalli",
       "city": "JYVÄSKYLÄ"
     },
@@ -528,6 +558,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Kuopion jäähalli",
       "city": "KUOPIO"
     },
@@ -545,6 +576,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -562,6 +594,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Mikkelin jäähalli",
       "city": "MIKKELI"
     },
@@ -579,6 +612,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -596,6 +630,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -613,6 +648,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -630,6 +666,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Kouvolan jäähalli",
       "city": "KOUVOLA"
     },
@@ -647,6 +684,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -664,6 +702,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -681,6 +720,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Oulun jäähalli",
       "city": "OULU"
     },
@@ -698,6 +738,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -715,6 +756,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Vaasan jäähalli I",
       "city": "VAASA"
     },
@@ -732,6 +774,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tapiolan monitoimiareena",
       "city": "ESPOO"
     },
@@ -749,6 +792,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Rauman jäähalli / Äijänsuo Areena",
       "city": "RAUMA"
     },
@@ -766,6 +810,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -783,6 +828,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Hämeenlinnan jäähalli I",
       "city": "HÄMEENLINNA"
     },
@@ -800,6 +846,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -817,6 +864,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
       "city": "TAMPERE"
     },
@@ -834,6 +882,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -851,6 +900,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -868,6 +918,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -885,6 +936,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -902,6 +954,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -919,6 +972,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Turun Monitoimihalli Oy",
       "city": "TURKU"
     },
@@ -936,6 +990,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -953,6 +1008,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -970,6 +1026,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
       "city": "TAMPERE"
     },
@@ -987,6 +1044,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Lahden jäähalli",
       "city": "LAHTI"
     },
@@ -1004,6 +1062,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -1021,6 +1080,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -1038,6 +1098,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -1055,6 +1116,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsingin jäähalli I",
       "city": "HELSINKI"
     },
@@ -1072,6 +1134,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     },
@@ -1089,6 +1152,7 @@
       "started": false,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI"
     }
