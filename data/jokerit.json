@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-01T10:08:08.234807+00:00",
+  "updated": "2026-09-01T10:28:32.889984+00:00",
   "games": [
     {
       "id": 2701280,
@@ -20,7 +20,351 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Vaasan jäähalli I",
-      "city": "VAASA"
+      "city": "VAASA",
+      "lineupPublished": true,
+      "lineup": [
+        {
+          "id": 30712591,
+          "firstName": "Henri",
+          "lastName": "Nikkanen",
+          "jersey": 28,
+          "line": 1,
+          "role": "CENTER",
+          "roleCode": "KH",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 29924154,
+          "firstName": "Veini",
+          "lastName": "Vehviläinen",
+          "jersey": 30,
+          "line": 1,
+          "role": "GOALIE",
+          "roleCode": "MV",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 21403877,
+          "firstName": "Aleksi",
+          "lastName": "Elorinne",
+          "jersey": 53,
+          "line": 1,
+          "role": "LEFT_DEFENSEMAN",
+          "roleCode": "VP",
+          "captain": false,
+          "alternateCaptain": true
+        },
+        {
+          "id": 60866735,
+          "firstName": "Patrick",
+          "lastName": "Curry",
+          "jersey": 71,
+          "line": 1,
+          "role": "LEFT_WING",
+          "roleCode": "VL",
+          "captain": false,
+          "alternateCaptain": true
+        },
+        {
+          "id": 61074400,
+          "firstName": "Max",
+          "lastName": "Krogdahl",
+          "jersey": 43,
+          "line": 1,
+          "role": "RIGHT_DEFENSEMAN",
+          "roleCode": "OP",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 60954325,
+          "firstName": "Maxime",
+          "lastName": "Fortier",
+          "jersey": 7,
+          "line": 1,
+          "role": "RIGHT_WING",
+          "roleCode": "OL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 31275998,
+          "firstName": "Alexander",
+          "lastName": "Forslund",
+          "jersey": 22,
+          "line": 2,
+          "role": "CENTER",
+          "roleCode": "KH",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 61074401,
+          "firstName": "Olle",
+          "lastName": "Eriksson Ek",
+          "jersey": 31,
+          "line": 2,
+          "role": "GOALIE",
+          "roleCode": "MV",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 40009767,
+          "firstName": "Valtteri",
+          "lastName": "Pulli",
+          "jersey": 55,
+          "line": 2,
+          "role": "LEFT_DEFENSEMAN",
+          "roleCode": "VP",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 25506929,
+          "firstName": "Teemu",
+          "lastName": "Turunen",
+          "jersey": 77,
+          "line": 2,
+          "role": "LEFT_WING",
+          "roleCode": "VL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 60578087,
+          "firstName": "Oliver",
+          "lastName": "Larsen",
+          "jersey": 98,
+          "line": 2,
+          "role": "RIGHT_DEFENSEMAN",
+          "roleCode": "OP",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 24641005,
+          "firstName": "Antti",
+          "lastName": "Kalapudas",
+          "jersey": 21,
+          "line": 2,
+          "role": "RIGHT_WING",
+          "roleCode": "OL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 33706012,
+          "firstName": "Kristo",
+          "lastName": "Pitkänen",
+          "jersey": 26,
+          "line": 3,
+          "role": "CENTER",
+          "roleCode": "KH",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 60619008,
+          "firstName": "Miks",
+          "lastName": "Tumanovs",
+          "jersey": 12,
+          "line": 3,
+          "role": "LEFT_DEFENSEMAN",
+          "roleCode": "VP",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 34323261,
+          "firstName": "Emil",
+          "lastName": "Kuusla",
+          "jersey": 25,
+          "line": 3,
+          "role": "LEFT_WING",
+          "roleCode": "VL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 24319557,
+          "firstName": "Saku",
+          "lastName": "Forsblom",
+          "jersey": 47,
+          "line": 3,
+          "role": "RIGHT_DEFENSEMAN",
+          "roleCode": "OP",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 25489224,
+          "firstName": "Eetu",
+          "lastName": "Tuulola",
+          "jersey": 82,
+          "line": 3,
+          "role": "RIGHT_WING",
+          "roleCode": "OL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 22598901,
+          "firstName": "Aleksi",
+          "lastName": "Mustonen",
+          "jersey": 92,
+          "line": 4,
+          "role": "CENTER",
+          "roleCode": "KH",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 40217713,
+          "firstName": "Bruno",
+          "lastName": "Kallio",
+          "jersey": 29,
+          "line": 4,
+          "role": "LEFT_WING",
+          "roleCode": "VL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 21722684,
+          "firstName": "Markus",
+          "lastName": "Hännikäinen",
+          "jersey": 33,
+          "line": 4,
+          "role": "RIGHT_WING",
+          "roleCode": "OL",
+          "captain": true,
+          "alternateCaptain": false
+        },
+        {
+          "id": 22510552,
+          "firstName": "Oskari",
+          "lastName": "Manninen",
+          "jersey": 41,
+          "line": 4,
+          "role": "SEVENTH_DEFENSEMAN",
+          "roleCode": "7. P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32766066,
+          "firstName": "Jesse",
+          "lastName": "Liuksiala",
+          "jersey": 14,
+          "line": 4,
+          "role": "THIRTEENTH_STRIKER",
+          "roleCode": "13. H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 60342512,
+          "firstName": "Matthew",
+          "lastName": "Caito",
+          "jersey": 4,
+          "line": null,
+          "role": "DEFENSEMAN",
+          "roleCode": "P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 24479743,
+          "firstName": "Olli",
+          "lastName": "Juolevi",
+          "jersey": 44,
+          "line": null,
+          "role": "DEFENSEMAN",
+          "roleCode": "P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 33296797,
+          "firstName": "Riku",
+          "lastName": "Tuomola",
+          "jersey": 52,
+          "line": null,
+          "role": "DEFENSEMAN",
+          "roleCode": "P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32586204,
+          "firstName": "Oliver",
+          "lastName": "Tuhkanen",
+          "jersey": 73,
+          "line": null,
+          "role": "DEFENSEMAN",
+          "roleCode": "P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 28262723,
+          "firstName": "Patrik",
+          "lastName": "Virta",
+          "jersey": 11,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 31905381,
+          "firstName": "Miro",
+          "lastName": "Nalli",
+          "jersey": 19,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32470776,
+          "firstName": "Rasmus",
+          "lastName": "Lahnaviik",
+          "jersey": 20,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32509715,
+          "firstName": "Oliver",
+          "lastName": "Suni",
+          "jersey": 40,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 29670505,
+          "firstName": "Jere",
+          "lastName": "Henriksson",
+          "jersey": 74,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        }
+      ]
     },
     {
       "id": 2701289,
@@ -38,7 +382,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Rauman jäähalli / Äijänsuo Areena",
-      "city": "RAUMA"
+      "city": "RAUMA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701297,
@@ -56,7 +402,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Porin jäähalli I",
-      "city": "PORI"
+      "city": "PORI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701308,
@@ -74,7 +422,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701318,
@@ -92,7 +442,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701321,
@@ -110,7 +462,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701331,
@@ -128,7 +482,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701334,
@@ -146,7 +502,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tapiolan monitoimiareena",
-      "city": "ESPOO"
+      "city": "ESPOO",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701342,
@@ -164,7 +522,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701350,
@@ -182,7 +542,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
-      "city": "TAMPERE"
+      "city": "TAMPERE",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701356,
@@ -200,7 +562,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Lappeenrannan jäähalli I",
-      "city": "LAPPEENRANTA"
+      "city": "LAPPEENRANTA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701364,
@@ -218,7 +582,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701377,
@@ -236,7 +602,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701388,
@@ -254,7 +622,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701389,
@@ -272,7 +642,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
-      "city": "TAMPERE"
+      "city": "TAMPERE",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701411,
@@ -290,7 +662,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Kouvolan jäähalli",
-      "city": "KOUVOLA"
+      "city": "KOUVOLA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701425,
@@ -308,7 +682,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Kuopion jäähalli",
-      "city": "KUOPIO"
+      "city": "KUOPIO",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701432,
@@ -326,7 +702,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Jyväskylän jäähalli",
-      "city": "JYVÄSKYLÄ"
+      "city": "JYVÄSKYLÄ",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701443,
@@ -344,7 +722,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsingin jäähalli I",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701449,
@@ -362,7 +742,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Turun Monitoimihalli Oy",
-      "city": "TURKU"
+      "city": "TURKU",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701455,
@@ -380,7 +762,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Porin jäähalli I",
-      "city": "PORI"
+      "city": "PORI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701458,
@@ -398,7 +782,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Mikkelin jäähalli",
-      "city": "MIKKELI"
+      "city": "MIKKELI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701464,
@@ -416,7 +802,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Hämeenlinnan jäähalli I",
-      "city": "HÄMEENLINNA"
+      "city": "HÄMEENLINNA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701473,
@@ -434,7 +822,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Oulun jäähalli",
-      "city": "OULU"
+      "city": "OULU",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701481,
@@ -452,7 +842,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701492,
@@ -470,7 +862,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Lappeenrannan jäähalli I",
-      "city": "LAPPEENRANTA"
+      "city": "LAPPEENRANTA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701502,
@@ -488,7 +882,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701513,
@@ -506,7 +902,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Lahden jäähalli",
-      "city": "LAHTI"
+      "city": "LAHTI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701525,
@@ -524,7 +922,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701527,
@@ -542,7 +942,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Jyväskylän jäähalli",
-      "city": "JYVÄSKYLÄ"
+      "city": "JYVÄSKYLÄ",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701533,
@@ -560,7 +962,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Kuopion jäähalli",
-      "city": "KUOPIO"
+      "city": "KUOPIO",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701545,
@@ -578,7 +982,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701548,
@@ -596,7 +1002,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Mikkelin jäähalli",
-      "city": "MIKKELI"
+      "city": "MIKKELI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701560,
@@ -614,7 +1022,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701569,
@@ -632,7 +1042,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701578,
@@ -650,7 +1062,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701580,
@@ -668,7 +1082,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Kouvolan jäähalli",
-      "city": "KOUVOLA"
+      "city": "KOUVOLA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701591,
@@ -686,7 +1102,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701600,
@@ -704,7 +1122,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701603,
@@ -722,7 +1142,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Oulun jäähalli",
-      "city": "OULU"
+      "city": "OULU",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701614,
@@ -740,7 +1162,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701619,
@@ -758,7 +1182,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Vaasan jäähalli I",
-      "city": "VAASA"
+      "city": "VAASA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701627,
@@ -776,7 +1202,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tapiolan monitoimiareena",
-      "city": "ESPOO"
+      "city": "ESPOO",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701632,
@@ -794,7 +1222,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Rauman jäähalli / Äijänsuo Areena",
-      "city": "RAUMA"
+      "city": "RAUMA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701649,
@@ -812,7 +1242,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701650,
@@ -830,7 +1262,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Hämeenlinnan jäähalli I",
-      "city": "HÄMEENLINNA"
+      "city": "HÄMEENLINNA",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701660,
@@ -848,7 +1282,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701665,
@@ -866,7 +1302,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
-      "city": "TAMPERE"
+      "city": "TAMPERE",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701678,
@@ -884,7 +1322,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701692,
@@ -902,7 +1342,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701708,
@@ -920,7 +1362,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701716,
@@ -938,7 +1382,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701731,
@@ -956,7 +1402,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701736,
@@ -974,7 +1422,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Turun Monitoimihalli Oy",
-      "city": "TURKU"
+      "city": "TURKU",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701744,
@@ -992,7 +1442,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701753,
@@ -1010,7 +1462,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701760,
@@ -1028,7 +1482,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
-      "city": "TAMPERE"
+      "city": "TAMPERE",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701764,
@@ -1046,7 +1502,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Lahden jäähalli",
-      "city": "LAHTI"
+      "city": "LAHTI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701776,
@@ -1064,7 +1522,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701787,
@@ -1082,7 +1542,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701795,
@@ -1100,7 +1562,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701801,
@@ -1118,7 +1582,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsingin jäähalli I",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701809,
@@ -1136,7 +1602,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     },
     {
       "id": 2701817,
@@ -1154,7 +1622,9 @@
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Helsinki Areena",
-      "city": "HELSINKI"
+      "city": "HELSINKI",
+      "lineupPublished": false,
+      "lineup": []
     }
   ]
 }
