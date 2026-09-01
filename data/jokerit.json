@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-01T18:43:26.785023+00:00",
+  "updated": "2026-09-01T18:54:31.384616+00:00",
   "games": [
     {
       "id": 2701280,
@@ -17,8 +17,8 @@
       "awayGoals": 4,
       "started": true,
       "ended": true,
-      "finishedType": "ENDED_DURING_EXTENDED_GAME_TIME",
-      "finishLabel": "JA",
+      "finishedType": "ENDED_DURING_WINNING_SHOT_COMPETITION",
+      "finishLabel": "VL",
       "rink": "Vaasan jäähalli I",
       "city": "VAASA",
       "lineupPublished": true,
