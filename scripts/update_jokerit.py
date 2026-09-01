@@ -1,9 +1,12 @@
 import json
 import urllib.request
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 BASE_URL = "https://liiga.fi/api/v2"
 JOKERIT_TEAM_ID = "238306801:jokerit"
+HELSINKI = ZoneInfo("Europe/Helsinki")
+
 
 def fetch_json(url):
     req = urllib.request.Request(
@@ -25,7 +28,64 @@ def finish_label(finished_type):
     return ""
 
 
-# 1. Selvitetään runkosarjan peliviikkojen määrä.
+def parse_local_start(value):
+    if not value:
+        return None
+
+    try:
+        return datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        ).astimezone(HELSINKI)
+    except (ValueError, TypeError):
+        return None
+
+
+def jokerit_players_from_detail(detail, item):
+    if item["homeTeamId"] == JOKERIT_TEAM_ID:
+        players = detail.get("homeTeamPlayers") or []
+    elif item["awayTeamId"] == JOKERIT_TEAM_ID:
+        players = detail.get("awayTeamPlayers") or []
+    else:
+        players = []
+
+    jokerit_players = []
+
+    for player in players:
+        if player.get("teamId") != JOKERIT_TEAM_ID:
+            continue
+
+        jokerit_players.append({
+            "id": player.get("id"),
+            "firstName": player.get("firstName"),
+            "lastName": player.get("lastName"),
+            "jersey": player.get("jersey"),
+            "line": player.get("line"),
+            "role": player.get("role"),
+            "roleCode": player.get("roleCode"),
+            "captain": player.get("captain", False),
+            "alternateCaptain": player.get(
+                "alternateCaptain", False
+            ),
+        })
+
+    jokerit_players.sort(
+        key=lambda p: (
+            p.get("line")
+            if p.get("line") is not None
+            else 99,
+            p.get("role") or "",
+            p.get("jersey")
+            if p.get("jersey") is not None
+            else 999,
+        )
+    )
+
+    return jokerit_players
+
+
+now_utc = datetime.now(timezone.utc)
+now_helsinki = now_utc.astimezone(HELSINKI)
+
 weeks_data = fetch_json(
     f"{BASE_URL}/gameweeks?season=2027&tournament=runkosarja"
 )
@@ -35,7 +95,6 @@ nb_weeks = weeks_data["nbWeeks"]
 jokerit_games = []
 
 
-# 2. Haetaan kaikki runkosarjaviikot.
 for week in range(1, nb_weeks + 1):
     games = fetch_json(
         f"{BASE_URL}/games?tournament=runkosarja&week={week}"
@@ -82,45 +141,90 @@ for week in range(1, nb_weeks + 1):
 
             "rink": (game.get("iceRink") or {}).get("name"),
             "city": (game.get("iceRink") or {}).get("city"),
+
+            "lineupPublished": False,
+            "lineup": [],
         }
 
-        # 3. Päättyneestä ottelusta haetaan tarkempi otteludata.
-        if item["ended"] and game_id:
+        item["finishLabel"] = finish_label(
+            item["finishedType"]
+        )
+
+        game_local = parse_local_start(local_time)
+
+        # Tarkempi otteludata haetaan:
+        # - aina päättyneistä peleistä
+        # - Jokerien pelipäivänä klo 13 jälkeen
+        should_fetch_detail = item["ended"]
+
+        if game_local:
+            is_game_day = (
+                game_local.date()
+                == now_helsinki.date()
+            )
+
+            after_lineup_time = (
+                now_helsinki.hour >= 13
+            )
+
+            if is_game_day and after_lineup_time:
+                should_fetch_detail = True
+
+        if should_fetch_detail and game_id:
             try:
                 detail = fetch_json(
-                    f"{BASE_URL}/game/{game_id}"
+                    f"{BASE_URL}/games/2027/{game_id}"
                 )
 
                 detailed_game = detail.get("game") or {}
 
-                detailed_home = detailed_game.get("homeTeam") or {}
-                detailed_away = detailed_game.get("awayTeam") or {}
+                if item["ended"]:
+                    detailed_home = (
+                        detailed_game.get("homeTeam") or {}
+                    )
+                    detailed_away = (
+                        detailed_game.get("awayTeam") or {}
+                    )
 
-                item["homeGoals"] = detailed_home.get(
-                    "goals", item["homeGoals"]
-                )
-                item["awayGoals"] = detailed_away.get(
-                    "goals", item["awayGoals"]
+                    item["homeGoals"] = detailed_home.get(
+                        "goals",
+                        item["homeGoals"],
+                    )
+
+                    item["awayGoals"] = detailed_away.get(
+                        "goals",
+                        item["awayGoals"],
+                    )
+
+                    item["finishedType"] = (
+                        detailed_game.get(
+                            "finishedType",
+                            item["finishedType"],
+                        )
+                    )
+
+                    item["finishLabel"] = finish_label(
+                        item["finishedType"]
+                    )
+
+                players = jokerit_players_from_detail(
+                    detail,
+                    item,
                 )
 
-                item["finishedType"] = detailed_game.get(
-                    "finishedType",
-                    item["finishedType"]
-                )
-
-                item["finishLabel"] = finish_label(
-                    item["finishedType"]
-                )
+                if players:
+                    item["lineup"] = players
+                    item["lineupPublished"] = True
 
             except Exception as exc:
                 print(
-                    f"Varoitus: ottelun {game_id} tarkemman datan haku epäonnistui: {exc}"
+                    f"Varoitus: ottelun {game_id} "
+                    f"tarkemman datan haku epäonnistui: {exc}"
                 )
 
         jokerit_games.append(item)
 
 
-# 4. Järjestetään ottelut aikajärjestykseen.
 jokerit_games.sort(
     key=lambda x: x.get("start") or ""
 )
@@ -130,7 +234,7 @@ output = {
     "season": "2026-2027",
     "team": "Jokerit",
     "teamId": JOKERIT_TEAM_ID,
-    "updated": datetime.now(timezone.utc).isoformat(),
+    "updated": now_utc.isoformat(),
     "games": jokerit_games,
 }
 
@@ -138,13 +242,13 @@ output = {
 with open(
     "data/jokerit.json",
     "w",
-    encoding="utf-8"
+    encoding="utf-8",
 ) as f:
     json.dump(
         output,
         f,
         ensure_ascii=False,
-        indent=2
+        indent=2,
     )
 
 
