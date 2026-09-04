@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T17:35:13Z",
+  "updated": "2026-09-04T17:49:22Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -89,6 +89,19 @@
     },
     {
       "rank": 7,
+      "team": "KalPa",
+      "teamId": 859884935,
+      "games": 2,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "points": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 5,
+      "goalDifference": 0
+    },
+    {
+      "rank": 8,
       "team": "Sport",
       "teamId": 626537494,
       "games": 1,
@@ -101,7 +114,7 @@
       "goalDifference": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "Jokerit",
       "teamId": 238306801,
       "games": 1,
@@ -114,7 +127,7 @@
       "goalDifference": -1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "HIFK",
       "teamId": 168761288,
       "games": 0,
@@ -127,7 +140,7 @@
       "goalDifference": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "JYP",
       "teamId": 219244634,
       "games": 0,
@@ -140,7 +153,7 @@
       "goalDifference": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "Pelicans",
       "teamId": 875886777,
       "games": 0,
@@ -153,7 +166,7 @@
       "goalDifference": 0
     },
     {
-      "rank": 12,
+      "rank": 13,
       "team": "KooKoo",
       "teamId": 461765763,
       "games": 1,
@@ -166,7 +179,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "Tappara",
       "teamId": 362185137,
       "games": 1,
@@ -179,7 +192,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 1,
@@ -192,7 +205,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 15,
+      "rank": 16,
       "team": "Lukko",
       "teamId": 624554857,
       "games": 1,
@@ -205,30 +218,17 @@
       "goalDifference": -2
     },
     {
-      "rank": 16,
+      "rank": 17,
       "team": "Jukurit",
       "teamId": 292293444,
-      "games": 1,
+      "games": 2,
       "wins": 0,
       "ties": 0,
-      "losses": 1,
+      "losses": 2,
       "points": 0,
       "goalsFor": 1,
-      "goalsAgainst": 4,
-      "goalDifference": -3
-    },
-    {
-      "rank": 17,
-      "team": "KalPa",
-      "teamId": 859884935,
-      "games": 1,
-      "wins": 0,
-      "ties": 0,
-      "losses": 1,
-      "points": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 5,
-      "goalDifference": -4
+      "goalsAgainst": 8,
+      "goalDifference": -7
     }
   ]
 }
