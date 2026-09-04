@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T18:08:29Z",
+  "updated": "2026-09-04T18:25:52Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -24,6 +24,19 @@
     },
     {
       "rank": 2,
+      "team": "Pelicans",
+      "teamId": 875886777,
+      "games": 1,
+      "wins": 1,
+      "ties": 0,
+      "losses": 0,
+      "points": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 3,
+      "goalDifference": 3
+    },
+    {
+      "rank": 3,
       "team": "HPK",
       "teamId": 55786244,
       "games": 1,
@@ -36,7 +49,7 @@
       "goalDifference": 3
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "SaiPa",
       "teamId": 933686567,
       "games": 1,
@@ -49,7 +62,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "TPS",
       "teamId": 651304385,
       "games": 1,
@@ -62,7 +75,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 1,
@@ -75,7 +88,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "Ilves",
       "teamId": 951626834,
       "games": 1,
@@ -88,7 +101,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 2,
@@ -101,20 +114,20 @@
       "goalDifference": 0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "Sport",
       "teamId": 626537494,
-      "games": 1,
+      "games": 2,
       "wins": 0,
       "ties": 1,
-      "losses": 0,
+      "losses": 1,
       "points": 2,
-      "goalsFor": 5,
-      "goalsAgainst": 4,
-      "goalDifference": 1
+      "goalsFor": 8,
+      "goalsAgainst": 10,
+      "goalDifference": -2
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "Jokerit",
       "teamId": 238306801,
       "games": 1,
@@ -127,7 +140,7 @@
       "goalDifference": -1
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "HIFK",
       "teamId": 168761288,
       "games": 0,
@@ -140,22 +153,9 @@
       "goalDifference": 0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "JYP",
       "teamId": 219244634,
-      "games": 0,
-      "wins": 0,
-      "ties": 0,
-      "losses": 0,
-      "points": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 0,
-      "goalDifference": 0
-    },
-    {
-      "rank": 12,
-      "team": "Pelicans",
-      "teamId": 875886777,
       "games": 0,
       "wins": 0,
       "ties": 0,
