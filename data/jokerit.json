@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-05T15:50:22.114363+00:00",
+  "updated": "2026-09-05T16:07:05.374335+00:00",
   "games": [
     {
       "id": 2701280,
@@ -375,8 +375,8 @@
       "awayTeam": "Jokerit",
       "homeTeamId": "624554857:lukko",
       "awayTeamId": "238306801:jokerit",
-      "homeGoals": 5,
-      "awayGoals": 0,
+      "homeGoals": 6,
+      "awayGoals": 1,
       "started": true,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
