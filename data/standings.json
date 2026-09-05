@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T16:49:21Z",
+  "updated": "2026-09-05T17:06:49Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -11,6 +11,19 @@
   "standings": [
     {
       "rank": 1,
+      "team": "TPS",
+      "teamId": 651304385,
+      "games": 2,
+      "wins": 2,
+      "ties": 0,
+      "losses": 0,
+      "points": 6,
+      "goalsFor": 9,
+      "goalsAgainst": 3,
+      "goalDifference": 6
+    },
+    {
+      "rank": 2,
       "team": "Pelicans",
       "teamId": 875886777,
       "games": 2,
@@ -23,7 +36,7 @@
       "goalDifference": 4
     },
     {
-      "rank": 2,
+      "rank": 3,
       "team": "Lukko",
       "teamId": 624554857,
       "games": 2,
@@ -36,7 +49,7 @@
       "goalDifference": 3
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "K-Espoo",
       "teamId": 1368624751,
       "games": 2,
@@ -49,7 +62,7 @@
       "goalDifference": 3
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 2,
@@ -59,19 +72,6 @@
       "points": 3,
       "goalsFor": 6,
       "goalsAgainst": 4,
-      "goalDifference": 2
-    },
-    {
-      "rank": 5,
-      "team": "HIFK",
-      "teamId": 168761288,
-      "games": 1,
-      "wins": 1,
-      "ties": 0,
-      "losses": 0,
-      "points": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 3,
       "goalDifference": 2
     },
     {
@@ -89,19 +89,6 @@
     },
     {
       "rank": 7,
-      "team": "TPS",
-      "teamId": 651304385,
-      "games": 1,
-      "wins": 1,
-      "ties": 0,
-      "losses": 0,
-      "points": 3,
-      "goalsFor": 4,
-      "goalsAgainst": 2,
-      "goalDifference": 2
-    },
-    {
-      "rank": 8,
       "team": "HPK",
       "teamId": 55786244,
       "games": 2,
@@ -114,7 +101,7 @@
       "goalDifference": 1
     },
     {
-      "rank": 9,
+      "rank": 8,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 2,
@@ -127,7 +114,7 @@
       "goalDifference": 1
     },
     {
-      "rank": 10,
+      "rank": 9,
       "team": "JYP",
       "teamId": 219244634,
       "games": 1,
@@ -140,7 +127,7 @@
       "goalDifference": 1
     },
     {
-      "rank": 11,
+      "rank": 10,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 2,
@@ -151,6 +138,19 @@
       "goalsFor": 5,
       "goalsAgainst": 5,
       "goalDifference": 0
+    },
+    {
+      "rank": 11,
+      "team": "HIFK",
+      "teamId": 168761288,
+      "games": 2,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
+      "points": 3,
+      "goalsFor": 6,
+      "goalsAgainst": 8,
+      "goalDifference": -2
     },
     {
       "rank": 12,
