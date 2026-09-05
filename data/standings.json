@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T16:23:45Z",
+  "updated": "2026-09-05T16:36:33Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -11,32 +11,45 @@
   "standings": [
     {
       "rank": 1,
-      "team": "K-Espoo",
-      "teamId": 1368624751,
-      "games": 1,
-      "wins": 1,
+      "team": "Pelicans",
+      "teamId": 875886777,
+      "games": 2,
+      "wins": 2,
       "ties": 0,
       "losses": 0,
-      "points": 3,
-      "goalsFor": 5,
-      "goalsAgainst": 1,
+      "points": 6,
+      "goalsFor": 8,
+      "goalsAgainst": 4,
       "goalDifference": 4
     },
     {
       "rank": 2,
-      "team": "Pelicans",
-      "teamId": 875886777,
-      "games": 1,
+      "team": "Lukko",
+      "teamId": 624554857,
+      "games": 2,
       "wins": 1,
       "ties": 0,
-      "losses": 0,
+      "losses": 1,
+      "points": 3,
+      "goalsFor": 7,
+      "goalsAgainst": 4,
+      "goalDifference": 3
+    },
+    {
+      "rank": 3,
+      "team": "K-Espoo",
+      "teamId": 1368624751,
+      "games": 2,
+      "wins": 1,
+      "ties": 0,
+      "losses": 1,
       "points": 3,
       "goalsFor": 6,
       "goalsAgainst": 3,
       "goalDifference": 3
     },
     {
-      "rank": 3,
+      "rank": 4,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 2,
@@ -49,7 +62,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "HIFK",
       "teamId": 168761288,
       "games": 1,
@@ -62,7 +75,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "SaiPa",
       "teamId": 933686567,
       "games": 1,
@@ -75,7 +88,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "TPS",
       "teamId": 651304385,
       "games": 1,
@@ -88,7 +101,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 1,
@@ -101,7 +114,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "HPK",
       "teamId": 55786244,
       "games": 2,
@@ -114,7 +127,7 @@
       "goalDifference": 1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 2,
@@ -127,7 +140,7 @@
       "goalDifference": 0
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "Ilves",
       "teamId": 951626834,
       "games": 2,
@@ -140,33 +153,46 @@
       "goalDifference": -2
     },
     {
-      "rank": 11,
+      "rank": 12,
+      "team": "Jukurit",
+      "teamId": 292293444,
+      "games": 3,
+      "wins": 1,
+      "ties": 0,
+      "losses": 2,
+      "points": 3,
+      "goalsFor": 5,
+      "goalsAgainst": 8,
+      "goalDifference": -3
+    },
+    {
+      "rank": 13,
       "team": "Sport",
       "teamId": 626537494,
+      "games": 3,
+      "wins": 0,
+      "ties": 1,
+      "losses": 2,
+      "points": 2,
+      "goalsFor": 8,
+      "goalsAgainst": 14,
+      "goalDifference": -6
+    },
+    {
+      "rank": 14,
+      "team": "Jokerit",
+      "teamId": 238306801,
       "games": 2,
       "wins": 0,
       "ties": 1,
       "losses": 1,
-      "points": 2,
-      "goalsFor": 8,
-      "goalsAgainst": 10,
-      "goalDifference": -2
-    },
-    {
-      "rank": 12,
-      "team": "Jokerit",
-      "teamId": 238306801,
-      "games": 1,
-      "wins": 0,
-      "ties": 1,
-      "losses": 0,
       "points": 1,
-      "goalsFor": 4,
-      "goalsAgainst": 5,
-      "goalDifference": -1
+      "goalsFor": 6,
+      "goalsAgainst": 12,
+      "goalDifference": -6
     },
     {
-      "rank": 13,
+      "rank": 15,
       "team": "JYP",
       "teamId": 219244634,
       "games": 0,
@@ -179,7 +205,7 @@
       "goalDifference": 0
     },
     {
-      "rank": 14,
+      "rank": 16,
       "team": "KooKoo",
       "teamId": 461765763,
       "games": 1,
@@ -192,7 +218,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 15,
+      "rank": 17,
       "team": "Tappara",
       "teamId": 362185137,
       "games": 1,
@@ -203,32 +229,6 @@
       "goalsFor": 2,
       "goalsAgainst": 4,
       "goalDifference": -2
-    },
-    {
-      "rank": 16,
-      "team": "Lukko",
-      "teamId": 624554857,
-      "games": 1,
-      "wins": 0,
-      "ties": 0,
-      "losses": 1,
-      "points": 0,
-      "goalsFor": 0,
-      "goalsAgainst": 2,
-      "goalDifference": -2
-    },
-    {
-      "rank": 17,
-      "team": "Jukurit",
-      "teamId": 292293444,
-      "games": 2,
-      "wins": 0,
-      "ties": 0,
-      "losses": 2,
-      "points": 0,
-      "goalsFor": 1,
-      "goalsAgainst": 8,
-      "goalDifference": -7
     }
   ]
 }
