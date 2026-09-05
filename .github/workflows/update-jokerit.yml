@@ -1,0 +1,106 @@
+name: Päivitä Jokerit-otteludata
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "1,16,31,46 12-21 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hae repository
+        uses: actions/checkout@v4
+
+      - name: Asenna Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tarkista tarvitaanko Jokerit-päivitystä
+        id: check
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, time
+          from zoneinfo import ZoneInfo
+
+          helsinki = ZoneInfo("Europe/Helsinki")
+          now = datetime.now(helsinki)
+
+          should_run = False
+          reason = ""
+
+          # Manuaalinen käynnistys saa aina jatkaa.
+          if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+              should_run = True
+              reason = "Manuaalinen käynnistys"
+
+          elif now.time() < time(15, 1):
+              reason = f"Liian aikaista: {now:%H:%M}"
+
+          else:
+              try:
+                  with open("data/jokerit.json", "r", encoding="utf-8") as f:
+                      data = json.load(f)
+
+                  todays_games = []
+
+                  for game in data.get("games", []):
+                      start_value = game.get("localStart") or game.get("start")
+                      if not start_value:
+                          continue
+
+                      start = datetime.fromisoformat(
+                          start_value.replace("Z", "+00:00")
+                      ).astimezone(helsinki)
+
+                      if start.date() == now.date():
+                          todays_games.append(game)
+
+                  if not todays_games:
+                      reason = "Jokereilla ei ole tänään ottelua"
+
+                  elif all(game.get("ended") is True for game in todays_games):
+                      reason = "Tämän päivän ottelu on jo päättynyt"
+
+                  else:
+                      should_run = True
+                      reason = "Jokerien pelipäivä ja ottelu kesken / tulos puuttuu"
+
+              except Exception as e:
+                  # Jos paikallisen JSONin tarkistus epäonnistuu,
+                  # tehdään päivitys mieluummin kuin jätetään se väliin.
+                  should_run = True
+                  reason = f"Tarkistus epäonnistui: {e}"
+
+          print(reason)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"run={'true' if should_run else 'false'}\n")
+          PY
+
+      - name: Päivitä Jokerien otteluohjelma
+        if: steps.check.outputs.run == 'true'
+        run: python scripts/update_jokerit.py
+
+      - name: Tallenna muuttunut data
+        if: steps.check.outputs.run == 'true'
+        run: |
+          if git diff --quiet -- data/jokerit.json; then
+            echo "Ei muutoksia."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/jokerit.json
+          git commit -m "Päivitä Jokerit-data"
+          git push
