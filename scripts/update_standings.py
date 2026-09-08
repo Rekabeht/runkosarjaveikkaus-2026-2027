@@ -53,8 +53,7 @@ if names != EXPECTED_TEAMS:
     extra = sorted(names - EXPECTED_TEAMS)
 
     raise RuntimeError(
-        f"Joukkuelista ei täsmää. "
-        f"Puuttuu={missing}, ylimääräiset={extra}"
+        f"Joukkuelista ei täsmää. Puuttuu={missing}, ylimääräiset={extra}"
     )
 
 
@@ -113,6 +112,5 @@ OUT.write_text(
 
 
 print(
-    f"Päivitetty {OUT}: "
-    f"{len(standings)} joukkuetta."
+    f"Päivitetty {OUT}: {len(standings)} joukkuetta."
 )
