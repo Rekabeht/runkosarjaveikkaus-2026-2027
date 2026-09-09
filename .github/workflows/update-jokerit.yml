@@ -3,7 +3,7 @@ name: Päivitä Jokerit-otteludata
 on:
   workflow_dispatch:
   schedule:
-    - cron: "1,16,31,46 12-21 * * *"
+    - cron: "7,12,17,22,27,32,37,42,47,52,57 10-21 * * *"
 
 permissions:
   contents: write
@@ -42,7 +42,7 @@ jobs:
               should_run = True
               reason = "Manuaalinen käynnistys"
 
-          elif now.time() < time(15, 1):
+          elif now.time() < time(13, 0):
               reason = f"Liian aikaista: {now:%H:%M}"
 
           else:
