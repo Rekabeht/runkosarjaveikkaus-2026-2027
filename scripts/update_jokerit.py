@@ -43,10 +43,18 @@ def parse_local_start(value):
 def jokerit_players_from_detail(detail, item):
     if item["homeTeamId"] == JOKERIT_TEAM_ID:
         players = detail.get("homeTeamPlayers") or []
+        player_source = "homeTeamPlayers"
     elif item["awayTeamId"] == JOKERIT_TEAM_ID:
         players = detail.get("awayTeamPlayers") or []
+        player_source = "awayTeamPlayers"
     else:
         players = []
+        player_source = "ei kumpikaan"
+
+    print(
+        f"  Jokerien pelaajalähde: {player_source}, "
+        f"pelaajia API-vastauksessa: {len(players)}"
+    )
 
     jokerit_players = []
 
@@ -85,6 +93,13 @@ def jokerit_players_from_detail(detail, item):
 
 now_utc = datetime.now(timezone.utc)
 now_helsinki = now_utc.astimezone(HELSINKI)
+
+print("")
+print("=== Jokerit-päivitys ===")
+print(f"UTC-aika:      {now_utc:%Y-%m-%d %H:%M:%S}")
+print(f"Helsinki-aika: {now_helsinki:%Y-%m-%d %H:%M:%S %Z}")
+print("")
+
 
 weeks_data = fetch_json(
     f"{BASE_URL}/gameweeks?season=2027&tournament=runkosarja"
@@ -157,6 +172,9 @@ for week in range(1, nb_weeks + 1):
         # - Jokerien pelipäivänä klo 13 jälkeen
         should_fetch_detail = item["ended"]
 
+        is_game_day = False
+        after_lineup_time = False
+
         if game_local:
             is_game_day = (
                 game_local.date()
@@ -170,11 +188,54 @@ for week in range(1, nb_weeks + 1):
             if is_game_day and after_lineup_time:
                 should_fetch_detail = True
 
+        # Diagnostiikka vain tämän päivän Jokerit-ottelusta.
+        if is_game_day:
+            print("=== TÄMÄN PÄIVÄN OTTELU ===")
+            print(
+                f"Ottelu: {item['homeTeam']} – "
+                f"{item['awayTeam']}"
+            )
+            print(f"Game ID: {game_id}")
+            print(
+                f"Alkamisaika: "
+                f"{game_local:%Y-%m-%d %H:%M:%S %Z}"
+                if game_local
+                else "Alkamisaika: puuttuu"
+            )
+            print(f"started: {item['started']}")
+            print(f"ended: {item['ended']}")
+            print(
+                f"Klo 13 jälkeen: "
+                f"{after_lineup_time}"
+            )
+            print(
+                f"Haetaanko detail: "
+                f"{should_fetch_detail}"
+            )
+
         if should_fetch_detail and game_id:
             try:
-                detail = fetch_json(
+                detail_url = (
                     f"{BASE_URL}/games/2027/{game_id}"
                 )
+
+                if is_game_day:
+                    print(
+                        f"Haetaan detail API: {detail_url}"
+                    )
+
+                detail = fetch_json(detail_url)
+
+                if is_game_day:
+                    print(
+                        "Detail API onnistui."
+                    )
+                    print(
+                        "Detail-vastauksen pääavaimet: "
+                        + ", ".join(
+                            sorted(detail.keys())
+                        )
+                    )
 
                 detailed_game = detail.get("game") or {}
 
@@ -215,6 +276,20 @@ for week in range(1, nb_weeks + 1):
                 if players:
                     item["lineup"] = players
                     item["lineupPublished"] = True
+
+                if is_game_day:
+                    print(
+                        f"Jokerit-pelaajia löytyi: "
+                        f"{len(players)}"
+                    )
+                    print(
+                        f"lineupPublished: "
+                        f"{item['lineupPublished']}"
+                    )
+                    print(
+                        "=========================="
+                    )
+                    print("")
 
             except Exception as exc:
                 print(
