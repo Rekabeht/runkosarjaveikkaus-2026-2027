@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T06:13:32Z",
+  "updated": "2026-09-09T03:12:40Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -39,6 +39,20 @@
     },
     {
       "rank": 3,
+      "team": "Ilves",
+      "teamId": 951626834,
+      "games": 3,
+      "wins": 2,
+      "ties": 0,
+      "losses": 1,
+      "bonusPoints": 0,
+      "points": 6,
+      "goalsFor": 7,
+      "goalsAgainst": 5,
+      "goalDifference": 2
+    },
+    {
+      "rank": 4,
       "team": "Lukko",
       "teamId": 624554857,
       "games": 2,
@@ -52,7 +66,7 @@
       "goalDifference": 3
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "K-Espoo",
       "teamId": 1368624751,
       "games": 2,
@@ -66,7 +80,7 @@
       "goalDifference": 3
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 2,
@@ -80,7 +94,7 @@
       "goalDifference": 2
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "SaiPa",
       "teamId": 933686567,
       "games": 1,
@@ -92,20 +106,6 @@
       "goalsFor": 4,
       "goalsAgainst": 2,
       "goalDifference": 2
-    },
-    {
-      "rank": 7,
-      "team": "HPK",
-      "teamId": 55786244,
-      "games": 2,
-      "wins": 1,
-      "ties": 0,
-      "losses": 1,
-      "bonusPoints": 0,
-      "points": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 6,
-      "goalDifference": 1
     },
     {
       "rank": 8,
@@ -165,17 +165,17 @@
     },
     {
       "rank": 12,
-      "team": "Ilves",
-      "teamId": 951626834,
-      "games": 2,
+      "team": "HPK",
+      "teamId": 55786244,
+      "games": 3,
       "wins": 1,
       "ties": 0,
-      "losses": 1,
+      "losses": 2,
       "bonusPoints": 0,
       "points": 3,
-      "goalsFor": 3,
-      "goalsAgainst": 5,
-      "goalDifference": -2
+      "goalsFor": 7,
+      "goalsAgainst": 10,
+      "goalDifference": -3
     },
     {
       "rank": 13,
