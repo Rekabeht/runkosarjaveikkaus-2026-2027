@@ -3,7 +3,12 @@ name: Päivitä Liiga-sarjataulukko
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 3 * * *"
+    - cron: "0 20 * * *"
+      timezone: "Europe/Helsinki"
+    - cron: "30 21 * * *"
+      timezone: "Europe/Helsinki"
+    - cron: "30 22 * * *"
+      timezone: "Europe/Helsinki"
 
 permissions:
   contents: write
