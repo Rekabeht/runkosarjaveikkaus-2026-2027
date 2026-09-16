@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T04:47:20Z",
+  "updated": "2026-09-16T20:01:25Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -11,6 +11,34 @@
   "standings": [
     {
       "rank": 1,
+      "team": "Jukurit",
+      "teamId": 292293444,
+      "games": 6,
+      "wins": 4,
+      "ties": 0,
+      "losses": 2,
+      "bonusPoints": 0,
+      "points": 12,
+      "goalsFor": 19,
+      "goalsAgainst": 14,
+      "goalDifference": 5
+    },
+    {
+      "rank": 2,
+      "team": "JYP",
+      "teamId": 219244634,
+      "games": 3,
+      "wins": 3,
+      "ties": 0,
+      "losses": 0,
+      "bonusPoints": 0,
+      "points": 9,
+      "goalsFor": 14,
+      "goalsAgainst": 6,
+      "goalDifference": 8
+    },
+    {
+      "rank": 3,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 4,
@@ -24,7 +52,7 @@
       "goalDifference": 7
     },
     {
-      "rank": 2,
+      "rank": 4,
       "team": "Pelicans",
       "teamId": 875886777,
       "games": 4,
@@ -38,21 +66,21 @@
       "goalDifference": 5
     },
     {
-      "rank": 3,
-      "team": "Jukurit",
-      "teamId": 292293444,
-      "games": 5,
-      "wins": 3,
-      "ties": 0,
-      "losses": 2,
-      "bonusPoints": 0,
-      "points": 9,
-      "goalsFor": 12,
-      "goalsAgainst": 10,
-      "goalDifference": 2
+      "rank": 5,
+      "team": "Ilves",
+      "teamId": 951626834,
+      "games": 4,
+      "wins": 2,
+      "ties": 1,
+      "losses": 1,
+      "bonusPoints": 1,
+      "points": 8,
+      "goalsFor": 11,
+      "goalsAgainst": 8,
+      "goalDifference": 3
     },
     {
-      "rank": 4,
+      "rank": 6,
       "team": "K-Espoo",
       "teamId": 1368624751,
       "games": 4,
@@ -66,21 +94,7 @@
       "goalDifference": 6
     },
     {
-      "rank": 5,
-      "team": "JYP",
-      "teamId": 219244634,
-      "games": 2,
-      "wins": 2,
-      "ties": 0,
-      "losses": 0,
-      "bonusPoints": 0,
-      "points": 6,
-      "goalsFor": 9,
-      "goalsAgainst": 3,
-      "goalDifference": 6
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 4,
@@ -94,7 +108,7 @@
       "goalDifference": 5
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "TPS",
       "teamId": 651304385,
       "games": 4,
@@ -105,20 +119,6 @@
       "points": 6,
       "goalsFor": 11,
       "goalsAgainst": 9,
-      "goalDifference": 2
-    },
-    {
-      "rank": 8,
-      "team": "Ilves",
-      "teamId": 951626834,
-      "games": 3,
-      "wins": 2,
-      "ties": 0,
-      "losses": 1,
-      "bonusPoints": 0,
-      "points": 6,
-      "goalsFor": 7,
-      "goalsAgainst": 5,
       "goalDifference": 2
     },
     {
@@ -153,15 +153,15 @@
       "rank": 11,
       "team": "Kärpät",
       "teamId": 495643563,
-      "games": 2,
+      "games": 3,
       "wins": 1,
-      "ties": 0,
+      "ties": 1,
       "losses": 1,
       "bonusPoints": 0,
-      "points": 3,
-      "goalsFor": 6,
-      "goalsAgainst": 5,
-      "goalDifference": 1
+      "points": 4,
+      "goalsFor": 9,
+      "goalsAgainst": 9,
+      "goalDifference": 0
     },
     {
       "rank": 12,
@@ -195,15 +195,15 @@
       "rank": 14,
       "team": "HIFK",
       "teamId": 168761288,
-      "games": 3,
+      "games": 4,
       "wins": 1,
       "ties": 0,
-      "losses": 2,
+      "losses": 3,
       "bonusPoints": 0,
       "points": 3,
-      "goalsFor": 7,
-      "goalsAgainst": 11,
-      "goalDifference": -4
+      "goalsFor": 11,
+      "goalsAgainst": 18,
+      "goalDifference": -7
     },
     {
       "rank": 15,
@@ -237,15 +237,15 @@
       "rank": 17,
       "team": "KooKoo",
       "teamId": 461765763,
-      "games": 2,
+      "games": 3,
       "wins": 0,
       "ties": 0,
-      "losses": 2,
+      "losses": 3,
       "bonusPoints": 0,
       "points": 0,
-      "goalsFor": 4,
-      "goalsAgainst": 10,
-      "goalDifference": -6
+      "goalsFor": 7,
+      "goalsAgainst": 15,
+      "goalDifference": -8
     }
   ]
 }
