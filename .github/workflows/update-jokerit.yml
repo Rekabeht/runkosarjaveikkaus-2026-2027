@@ -1,38 +1,39 @@
+
 name: Päivitä Jokerit-otteludata
 
 on:
   workflow_dispatch:
   schedule:
-    # Kokoonpanon haut pelipäivänä
-    - cron: "7 13 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "22 13 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "37 13 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "52 13 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "7 14 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "22 14 * * *"
+    # Kokoonpanot: 13.07–14.52 Suomen aikaa, 15 minuutin välein
+    - cron: "7,22,37,52 13,14 * * *"
       timezone: "Europe/Helsinki"
 
-    # Illan haut ottelun tilanteen ja lopputuloksen päivittämiseen
-    - cron: "7 20 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "37 21 * * *"
-      timezone: "Europe/Helsinki"
-    - cron: "37 22 * * *"
+    # Ottelun tilanne ja lopputulos: 17.07–23.52,
+    # 15 minuutin välein
+    - cron: "7,22,37,52 17-23 * * *"
       timezone: "Europe/Helsinki"
 
 permissions:
   contents: write
+
+concurrency:
+  group: jokerit-data
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Näytä käynnistyksen tiedot
+        env:
+          TRIGGER_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          echo "Käynnistystapa: $GITHUB_EVENT_NAME"
+          echo "Ajastus: $TRIGGER_SCHEDULE"
+          echo "UTC-aika: $(date -u '+%Y-%m-%d %H:%M:%S')"
+          echo "Suomen aika: $(TZ=Europe/Helsinki date '+%Y-%m-%d %H:%M:%S %Z')"
+
       - name: Hae repository
         uses: actions/checkout@v4
 
@@ -57,7 +58,8 @@ jobs:
           should_run = False
           reason = ""
 
-          # Manuaalinen käynnistys saa aina jatkaa.
+          print(f"Tarkistushetki: {now:%Y-%m-%d %H:%M:%S %Z}")
+
           if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
               should_run = True
               reason = "Manuaalinen käynnistys"
@@ -83,6 +85,8 @@ jobs:
 
                       if start.date() == now.date():
                           todays_games.append(game)
+
+                  print(f"Tämän päivän otteluita: {len(todays_games)}")
 
                   if not todays_games:
                       reason = "Jokereilla ei ole tänään ottelua"
