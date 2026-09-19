@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-19T14:00:04.285776+00:00",
+  "updated": "2026-09-19T17:12:16.502090+00:00",
   "games": [
     {
       "id": 2701280,
@@ -262,17 +262,6 @@
           "line": 4,
           "role": "THIRTEENTH_STRIKER",
           "roleCode": "13. H",
-          "captain": false,
-          "alternateCaptain": false
-        },
-        {
-          "id": 34336818,
-          "firstName": "Lukas",
-          "lastName": "Selin",
-          "jersey": 35,
-          "line": null,
-          "role": null,
-          "roleCode": "KP",
           "captain": false,
           "alternateCaptain": false
         },
@@ -635,17 +624,6 @@
           "line": 4,
           "role": "SEVENTH_DEFENSEMAN",
           "roleCode": "7. P",
-          "captain": false,
-          "alternateCaptain": false
-        },
-        {
-          "id": 34336818,
-          "firstName": "Lukas",
-          "lastName": "Selin",
-          "jersey": 35,
-          "line": null,
-          "role": null,
-          "roleCode": "KP",
           "captain": false,
           "alternateCaptain": false
         },
@@ -1385,17 +1363,6 @@
           "alternateCaptain": false
         },
         {
-          "id": 34336818,
-          "firstName": "Lukas",
-          "lastName": "Selin",
-          "jersey": 35,
-          "line": null,
-          "role": null,
-          "roleCode": "KP",
-          "captain": false,
-          "alternateCaptain": false
-        },
-        {
           "id": 60619008,
           "firstName": "Miks",
           "lastName": "Tumanovs",
@@ -1506,10 +1473,10 @@
       "homeTeamId": "238306801:jokerit",
       "awayTeamId": "362185137:tappara",
       "homeGoals": 0,
-      "awayGoals": 0,
+      "awayGoals": 6,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "ended": true,
+      "finishedType": "ENDED_DURING_REGULAR_GAME_TIME",
       "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI",
