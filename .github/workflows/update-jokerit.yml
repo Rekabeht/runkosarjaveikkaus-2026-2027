@@ -4,14 +4,12 @@ name: Päivitä Jokerit-otteludata
 on:
   workflow_dispatch:
   schedule:
-    # Kokoonpanot: 13.07–14.52 Suomen aikaa, 15 minuutin välein
-    - cron: "7,22,37,52 13,14 * * *"
-      timezone: "Europe/Helsinki"
+    # Kokoonpanot klo 13.07–16.52 Suomen kesäaikaa (UTC+3)
+    - cron: "7,22,37,52 10-13 * * *"
 
-    # Ottelun tilanne ja lopputulos: 17.07–23.52,
-    # 15 minuutin välein
-    - cron: "7,22,37,52 17-23 * * *"
-      timezone: "Europe/Helsinki"
+    # Ottelun tilanne ja lopputulos klo 17.07–23.52
+    # Suomen kesäaikaa (UTC+3)
+    - cron: "7,22,37,52 14-20 * * *"
 
 permissions:
   contents: write
