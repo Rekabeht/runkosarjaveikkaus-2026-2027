@@ -1,0 +1,90 @@
+
+name: Jokerit-ajastin
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Päivittäiset käynnistysyritykset UTC-ajassa
+    - cron: "7,22,37,52 10-20 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  tarkista:
+    runs-on: ubuntu-latest
+
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+
+    steps:
+      - name: Hae repository
+        uses: actions/checkout@v4
+
+      - name: Tarkista pelipäivä ja kellonaika
+        id: check
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, time
+          from zoneinfo import ZoneInfo
+
+          helsinki = ZoneInfo("Europe/Helsinki")
+          now = datetime.now(helsinki)
+
+          should_run = False
+
+          print(f"Suomen aika: {now:%Y-%m-%d %H:%M:%S %Z}")
+
+          if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+              should_run = True
+              print("Manuaalinen ajastintesti")
+
+          elif not time(13, 0) <= now.time() <= time(23, 59):
+              print("Ei päivitysaika")
+
+          else:
+              try:
+                  with open("data/jokerit.json", "r", encoding="utf-8") as f:
+                      data = json.load(f)
+
+                  todays_games = []
+
+                  for game in data.get("games", []):
+                      start_value = game.get("localStart") or game.get("start")
+                      if not start_value:
+                          continue
+
+                      start = datetime.fromisoformat(
+                          start_value.replace("Z", "+00:00")
+                      ).astimezone(helsinki)
+
+                      if start.date() == now.date():
+                          todays_games.append(game)
+
+                  if not todays_games:
+                      print("Jokereilla ei ole tänään ottelua")
+
+                  elif all(game.get("ended") is True for game in todays_games):
+                      print("Tämän päivän ottelu on jo päättynyt")
+
+                  else:
+                      should_run = True
+                      print("Pelipäivä: käynnistetään Jokerit-päivitys")
+
+              except Exception as e:
+                  should_run = True
+                  print(f"Tarkistus epäonnistui: {e}")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+              f.write(f"run={'true' if should_run else 'false'}\n")
+          PY
+
+  paivita:
+    needs: tarkista
+    if: needs.tarkista.outputs.run == 'true'
+    uses: ./.github/workflows/update-jokerit.yml
+    permissions:
+      contents: write
