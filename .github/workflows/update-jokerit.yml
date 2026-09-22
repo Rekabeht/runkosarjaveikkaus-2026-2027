@@ -3,13 +3,7 @@ name: Päivitä Jokerit-otteludata
 
 on:
   workflow_dispatch:
-  schedule:
-    # Kokoonpanot klo 13.07–16.52 Suomen kesäaikaa (UTC+3)
-    - cron: "7,22,37,52 10-13 * * *"
-
-    # Ottelun tilanne ja lopputulos klo 17.07–23.52
-    # Suomen kesäaikaa (UTC+3)
-    - cron: "7,22,37,52 14-20 * * *"
+  workflow_call:
 
 permissions:
   contents: write
@@ -24,11 +18,8 @@ jobs:
 
     steps:
       - name: Näytä käynnistyksen tiedot
-        env:
-          TRIGGER_SCHEDULE: ${{ github.event.schedule }}
         run: |
           echo "Käynnistystapa: $GITHUB_EVENT_NAME"
-          echo "Ajastus: $TRIGGER_SCHEDULE"
           echo "UTC-aika: $(date -u '+%Y-%m-%d %H:%M:%S')"
           echo "Suomen aika: $(TZ=Europe/Helsinki date '+%Y-%m-%d %H:%M:%S %Z')"
 
