@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T22:25:42Z",
+  "updated": "2026-09-24T20:23:36Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -67,6 +67,20 @@
     },
     {
       "rank": 5,
+      "team": "Lukko",
+      "teamId": 624554857,
+      "games": 7,
+      "wins": 3,
+      "ties": 1,
+      "losses": 3,
+      "bonusPoints": 1,
+      "points": 11,
+      "goalsFor": 17,
+      "goalsAgainst": 16,
+      "goalDifference": 1
+    },
+    {
+      "rank": 6,
       "team": "SaiPa",
       "teamId": 933686567,
       "games": 5,
@@ -80,7 +94,7 @@
       "goalDifference": 7
     },
     {
-      "rank": 6,
+      "rank": 7,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 6,
@@ -94,21 +108,21 @@
       "goalDifference": 5
     },
     {
-      "rank": 7,
+      "rank": 8,
       "team": "Tappara",
       "teamId": 362185137,
-      "games": 5,
+      "games": 6,
       "wins": 3,
       "ties": 0,
-      "losses": 2,
+      "losses": 3,
       "bonusPoints": 0,
       "points": 9,
-      "goalsFor": 15,
-      "goalsAgainst": 10,
-      "goalDifference": 5
+      "goalsFor": 17,
+      "goalsAgainst": 13,
+      "goalDifference": 4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "team": "TPS",
       "teamId": 651304385,
       "games": 6,
@@ -122,7 +136,7 @@
       "goalDifference": 4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "team": "Pelicans",
       "teamId": 875886777,
       "games": 7,
@@ -136,7 +150,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 10,
+      "rank": 11,
       "team": "K-Espoo",
       "teamId": 1368624751,
       "games": 6,
@@ -150,7 +164,7 @@
       "goalDifference": 6
     },
     {
-      "rank": 11,
+      "rank": 12,
       "team": "Sport",
       "teamId": 626537494,
       "games": 8,
@@ -162,20 +176,6 @@
       "goalsFor": 15,
       "goalsAgainst": 25,
       "goalDifference": -10
-    },
-    {
-      "rank": 12,
-      "team": "Lukko",
-      "teamId": 624554857,
-      "games": 6,
-      "wins": 2,
-      "ties": 1,
-      "losses": 3,
-      "bonusPoints": 1,
-      "points": 8,
-      "goalsFor": 14,
-      "goalsAgainst": 14,
-      "goalDifference": 0
     },
     {
       "rank": 13,
