@@ -4,7 +4,10 @@ name: Jokerit-ajastin
 on:
   workflow_dispatch:
   schedule:
-    # Päivittäiset käynnistysyritykset UTC-ajassa
+    # Ensimmäinen haku klo 13.01 Suomen kesäaikaa
+    - cron: "1 10 * * *"
+
+    # Muut haut 15 minuutin välein
     - cron: "7,22,37,52 10-20 * * *"
 
 permissions:
