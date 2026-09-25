@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-25T13:16:20.915502+00:00",
+  "updated": "2026-09-25T13:31:20.169217+00:00",
   "games": [
     {
       "id": 2701280,
@@ -2168,6 +2168,17 @@
           "firstName": "Maxime",
           "lastName": "Fortier",
           "jersey": 7,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32470776,
+          "firstName": "Rasmus",
+          "lastName": "Lahnaviik",
+          "jersey": 20,
           "line": null,
           "role": "STRIKER",
           "roleCode": "H",
