@@ -3,15 +3,13 @@ name: Jokerit-ajastin
 
 on:
   workflow_dispatch:
-  schedule:
-    # Ensimmäinen haku klo 13.01 Suomen kesäaikaa
-    - cron: "1 10 * * *"
-
-    # Muut käynnistysyritykset 15 minuutin välein
-    - cron: "7,22,37,52 10-20 * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: jokerit-ajastin
+  cancel-in-progress: false
 
 jobs:
   tarkista:
@@ -40,12 +38,9 @@ jobs:
           should_run = False
 
           print(f"Suomen aika: {now:%Y-%m-%d %H:%M:%S %Z}")
+          print(f"Käynnistystapa: {os.environ.get('GITHUB_EVENT_NAME')}")
 
-          if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
-              should_run = True
-              print("Manuaalinen ajastintesti")
-
-          elif not time(13, 0) <= now.time() <= time(23, 59):
+          if not time(13, 0) <= now.time() < time(23, 59):
               print("Ei päivitysaika")
 
           else:
@@ -57,6 +52,7 @@ jobs:
 
                   for game in data.get("games", []):
                       start_value = game.get("localStart") or game.get("start")
+
                       if not start_value:
                           continue
 
@@ -66,6 +62,8 @@ jobs:
 
                       if start.date() == now.date():
                           todays_games.append(game)
+
+                  print(f"Tämän päivän otteluita: {len(todays_games)}")
 
                   if not todays_games:
                       print("Jokereilla ei ole tänään ottelua")
