@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-25T16:16:21.800811+00:00",
+  "updated": "2026-09-25T16:31:17.538542+00:00",
   "games": [
     {
       "id": 2701280,
@@ -2231,7 +2231,7 @@
       "awayTeamId": "651304385:tps",
       "homeGoals": 0,
       "awayGoals": 0,
-      "started": false,
+      "started": true,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
