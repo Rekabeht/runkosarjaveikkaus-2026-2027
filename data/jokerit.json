@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-25T13:31:20.169217+00:00",
+  "updated": "2026-09-25T13:46:21.798990+00:00",
   "games": [
     {
       "id": 2701280,
@@ -1824,6 +1824,17 @@
           "alternateCaptain": false
         },
         {
+          "id": 32470776,
+          "firstName": "Rasmus",
+          "lastName": "Lahnaviik",
+          "jersey": 20,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
           "id": 33706012,
           "firstName": "Kristo",
           "lastName": "Pitkänen",
@@ -2471,17 +2482,6 @@
           "alternateCaptain": false
         },
         {
-          "id": 34336818,
-          "firstName": "Lukas",
-          "lastName": "Selin",
-          "jersey": 35,
-          "line": null,
-          "role": null,
-          "roleCode": "KP",
-          "captain": false,
-          "alternateCaptain": false
-        },
-        {
           "id": 22510552,
           "firstName": "Oskari",
           "lastName": "Manninen",
@@ -2511,6 +2511,17 @@
           "line": null,
           "role": "GOALIE",
           "roleCode": "MV",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32470776,
+          "firstName": "Rasmus",
+          "lastName": "Lahnaviik",
+          "jersey": 20,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
           "captain": false,
           "alternateCaptain": false
         },
