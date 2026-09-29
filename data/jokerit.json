@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-29T17:46:19.620979+00:00",
+  "updated": "2026-09-29T18:01:20.637344+00:00",
   "games": [
     {
       "id": 2701280,
@@ -2912,8 +2912,8 @@
       "homeGoals": 3,
       "awayGoals": 0,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "ended": true,
+      "finishedType": "ENDED_DURING_REGULAR_GAME_TIME",
       "finishLabel": "",
       "rink": "Helsinki Areena",
       "city": "HELSINKI",
