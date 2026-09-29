@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T23:53:26Z",
+  "updated": "2026-09-29T21:21:27Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -11,20 +11,34 @@
   "standings": [
     {
       "rank": 1,
-      "team": "Jukurit",
-      "teamId": 292293444,
-      "games": 9,
+      "team": "Ilves",
+      "teamId": 951626834,
+      "games": 8,
       "wins": 6,
       "ties": 1,
-      "losses": 2,
+      "losses": 1,
       "bonusPoints": 1,
       "points": 20,
-      "goalsFor": 29,
-      "goalsAgainst": 19,
-      "goalDifference": 10
+      "goalsFor": 25,
+      "goalsAgainst": 13,
+      "goalDifference": 12
     },
     {
       "rank": 2,
+      "team": "Jukurit",
+      "teamId": 292293444,
+      "games": 10,
+      "wins": 6,
+      "ties": 1,
+      "losses": 3,
+      "bonusPoints": 1,
+      "points": 20,
+      "goalsFor": 31,
+      "goalsAgainst": 22,
+      "goalDifference": 9
+    },
+    {
+      "rank": 3,
       "team": "JYP",
       "teamId": 219244634,
       "games": 6,
@@ -36,20 +50,6 @@
       "goalsFor": 25,
       "goalsAgainst": 12,
       "goalDifference": 13
-    },
-    {
-      "rank": 3,
-      "team": "Ilves",
-      "teamId": 951626834,
-      "games": 7,
-      "wins": 5,
-      "ties": 1,
-      "losses": 1,
-      "bonusPoints": 1,
-      "points": 17,
-      "goalsFor": 22,
-      "goalsAgainst": 11,
-      "goalDifference": 11
     },
     {
       "rank": 4,
@@ -195,15 +195,15 @@
       "rank": 14,
       "team": "HPK",
       "teamId": 55786244,
-      "games": 7,
+      "games": 8,
       "wins": 2,
       "ties": 1,
-      "losses": 4,
+      "losses": 5,
       "bonusPoints": 1,
       "points": 8,
       "goalsFor": 16,
-      "goalsAgainst": 25,
-      "goalDifference": -9
+      "goalsAgainst": 28,
+      "goalDifference": -12
     },
     {
       "rank": 15,
@@ -223,15 +223,15 @@
       "rank": 16,
       "team": "Jokerit",
       "teamId": 238306801,
-      "games": 8,
-      "wins": 1,
+      "games": 9,
+      "wins": 2,
       "ties": 1,
       "losses": 6,
       "bonusPoints": 0,
-      "points": 4,
-      "goalsFor": 15,
+      "points": 7,
+      "goalsFor": 18,
       "goalsAgainst": 31,
-      "goalDifference": -16
+      "goalDifference": -13
     },
     {
       "rank": 17,
