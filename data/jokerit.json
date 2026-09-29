@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-09-29T17:31:55.664496+00:00",
+  "updated": "2026-09-29T17:46:19.620979+00:00",
   "games": [
     {
       "id": 2701280,
@@ -2909,7 +2909,7 @@
       "awayTeam": "HPK",
       "homeTeamId": "238306801:jokerit",
       "awayTeamId": "55786244:hpk",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 0,
       "started": true,
       "ended": false,
