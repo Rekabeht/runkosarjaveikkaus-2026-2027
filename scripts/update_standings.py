@@ -89,10 +89,35 @@ for x in team_stats:
 standings.sort(key=lambda x: x["rank"])
 
 
-payload = {
-    "updated": datetime.now(timezone.utc)
+# Säilytä vanha päivitysaika, jos sarjataulukko ei ole muuttunut.
+old_payload = {}
+
+if OUT.exists():
+    try:
+        old_payload = json.loads(
+            OUT.read_text(encoding="utf-8")
+        )
+    except (json.JSONDecodeError, OSError):
+        old_payload = {}
+
+
+old_standings = old_payload.get("standings")
+old_updated = old_payload.get("updated")
+
+if old_standings == standings and old_updated:
+    updated = old_updated
+    changed = False
+else:
+    updated = (
+        datetime.now(timezone.utc)
         .isoformat(timespec="seconds")
-        .replace("+00:00", "Z"),
+        .replace("+00:00", "Z")
+    )
+    changed = True
+
+
+payload = {
+    "updated": updated,
     "season": "2026-2027",
     "tournament": "runkosarja",
     "source": API_URL,
@@ -111,6 +136,12 @@ OUT.write_text(
 )
 
 
-print(
-    f"Päivitetty {OUT}: {len(standings)} joukkuetta."
-)
+if changed:
+    print(
+        f"Sarjataulukko muuttui. Päivitetty {OUT}: "
+        f"{len(standings)} joukkuetta."
+    )
+else:
+    print(
+        f"Sarjataulukko ei muuttunut. Säilytetään päivitysaika {updated}."
+    )
