@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-02T17:46:20.356408+00:00",
+  "updated": "2026-10-02T18:01:20.217225+00:00",
   "games": [
     {
       "id": 2701280,
@@ -3249,10 +3249,10 @@
       "awayTeam": "Jokerit",
       "homeTeamId": "362185137:tappara",
       "awayTeamId": "238306801:jokerit",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 2,
       "started": true,
-      "ended": false,
+      "ended": true,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
       "rink": "Tampereen Kansi Areena",
