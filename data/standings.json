@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T21:56:14Z",
+  "updated": "2026-10-08T22:00:10Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -39,6 +39,20 @@
     },
     {
       "rank": 3,
+      "team": "JYP",
+      "teamId": 219244634,
+      "games": 9,
+      "wins": 7,
+      "ties": 0,
+      "losses": 2,
+      "bonusPoints": 0,
+      "points": 21,
+      "goalsFor": 29,
+      "goalsAgainst": 19,
+      "goalDifference": 10
+    },
+    {
+      "rank": 4,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 11,
@@ -52,21 +66,21 @@
       "goalDifference": 4
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "SaiPa",
       "teamId": 933686567,
-      "games": 10,
+      "games": 11,
       "wins": 5,
       "ties": 3,
-      "losses": 2,
+      "losses": 3,
       "bonusPoints": 2,
       "points": 20,
-      "goalsFor": 29,
-      "goalsAgainst": 18,
-      "goalDifference": 11
+      "goalsFor": 30,
+      "goalsAgainst": 20,
+      "goalDifference": 10
     },
     {
-      "rank": 5,
+      "rank": 6,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 11,
@@ -78,20 +92,6 @@
       "goalsFor": 31,
       "goalsAgainst": 30,
       "goalDifference": 1
-    },
-    {
-      "rank": 6,
-      "team": "JYP",
-      "teamId": 219244634,
-      "games": 8,
-      "wins": 6,
-      "ties": 0,
-      "losses": 2,
-      "bonusPoints": 0,
-      "points": 18,
-      "goalsFor": 27,
-      "goalsAgainst": 18,
-      "goalDifference": 9
     },
     {
       "rank": 7,
@@ -209,29 +209,29 @@
       "rank": 15,
       "team": "HIFK",
       "teamId": 168761288,
-      "games": 9,
+      "games": 10,
       "wins": 2,
-      "ties": 2,
+      "ties": 3,
       "losses": 5,
       "bonusPoints": 1,
-      "points": 9,
-      "goalsFor": 23,
-      "goalsAgainst": 30,
-      "goalDifference": -7
+      "points": 10,
+      "goalsFor": 25,
+      "goalsAgainst": 33,
+      "goalDifference": -8
     },
     {
       "rank": 16,
       "team": "Jokerit",
       "teamId": 238306801,
-      "games": 11,
+      "games": 12,
       "wins": 2,
-      "ties": 2,
+      "ties": 3,
       "losses": 7,
-      "bonusPoints": 0,
-      "points": 8,
-      "goalsFor": 22,
-      "goalsAgainst": 37,
-      "goalDifference": -15
+      "bonusPoints": 1,
+      "points": 10,
+      "goalsFor": 25,
+      "goalsAgainst": 39,
+      "goalDifference": -14
     },
     {
       "rank": 17,
