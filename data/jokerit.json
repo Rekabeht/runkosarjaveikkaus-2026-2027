@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-10T13:46:21.894375+00:00",
+  "updated": "2026-10-10T14:01:19.558608+00:00",
   "games": [
     {
       "id": 2701280,
@@ -4271,7 +4271,7 @@
       "awayTeamId": "951626834:ilves",
       "homeGoals": 0,
       "awayGoals": 0,
-      "started": false,
+      "started": true,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
       "finishLabel": "",
