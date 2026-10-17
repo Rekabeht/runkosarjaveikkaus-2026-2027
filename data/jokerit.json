@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-17T16:46:18.326515+00:00",
+  "updated": "2026-10-17T17:01:18.493268+00:00",
   "games": [
     {
       "id": 2701280,
@@ -4941,9 +4941,9 @@
       "homeGoals": 4,
       "awayGoals": 3,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
-      "finishLabel": "",
+      "ended": true,
+      "finishedType": "ENDED_DURING_WINNING_SHOT_COMPETITION",
+      "finishLabel": "VL",
       "rink": "Tampereen Kansi Areena",
       "city": "TAMPERE",
       "lineupPublished": true,
