@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-17T10:01:19.297217+00:00",
+  "updated": "2026-10-17T10:16:20.067874+00:00",
   "games": [
     {
       "id": 2701280,
@@ -5169,6 +5169,17 @@
           "alternateCaptain": false
         },
         {
+          "id": 31905381,
+          "firstName": "Miro",
+          "lastName": "Nalli",
+          "jersey": 19,
+          "line": 4,
+          "role": "RIGHT_WING",
+          "roleCode": "OL",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
           "id": 24319557,
           "firstName": "Saku",
           "lastName": "Forsblom",
@@ -5176,17 +5187,6 @@
           "line": 4,
           "role": "SEVENTH_DEFENSEMAN",
           "roleCode": "7. P",
-          "captain": false,
-          "alternateCaptain": false
-        },
-        {
-          "id": 31905381,
-          "firstName": "Miro",
-          "lastName": "Nalli",
-          "jersey": 19,
-          "line": 4,
-          "role": "THIRTEENTH_STRIKER",
-          "roleCode": "13. H",
           "captain": false,
           "alternateCaptain": false
         },
