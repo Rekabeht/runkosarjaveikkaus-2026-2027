@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T20:28:20Z",
+  "updated": "2026-10-21T20:33:08Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -55,15 +55,15 @@
       "rank": 4,
       "team": "Ässät",
       "teamId": 679171680,
-      "games": 15,
+      "games": 16,
       "wins": 8,
       "ties": 3,
-      "losses": 4,
+      "losses": 5,
       "bonusPoints": 1,
       "points": 28,
       "goalsFor": 37,
-      "goalsAgainst": 33,
-      "goalDifference": 4
+      "goalsAgainst": 36,
+      "goalDifference": 1
     },
     {
       "rank": 5,
@@ -123,6 +123,34 @@
     },
     {
       "rank": 9,
+      "team": "K-Espoo",
+      "teamId": 1368624751,
+      "games": 16,
+      "wins": 6,
+      "ties": 4,
+      "losses": 6,
+      "bonusPoints": 1,
+      "points": 23,
+      "goalsFor": 49,
+      "goalsAgainst": 41,
+      "goalDifference": 8
+    },
+    {
+      "rank": 10,
+      "team": "Tappara",
+      "teamId": 362185137,
+      "games": 15,
+      "wins": 6,
+      "ties": 3,
+      "losses": 6,
+      "bonusPoints": 2,
+      "points": 23,
+      "goalsFor": 40,
+      "goalsAgainst": 32,
+      "goalDifference": 8
+    },
+    {
+      "rank": 11,
       "team": "HPK",
       "teamId": 55786244,
       "games": 15,
@@ -134,34 +162,6 @@
       "goalsFor": 33,
       "goalsAgainst": 41,
       "goalDifference": -8
-    },
-    {
-      "rank": 10,
-      "team": "K-Espoo",
-      "teamId": 1368624751,
-      "games": 15,
-      "wins": 5,
-      "ties": 4,
-      "losses": 6,
-      "bonusPoints": 1,
-      "points": 20,
-      "goalsFor": 45,
-      "goalsAgainst": 39,
-      "goalDifference": 6
-    },
-    {
-      "rank": 11,
-      "team": "Tappara",
-      "teamId": 362185137,
-      "games": 14,
-      "wins": 5,
-      "ties": 3,
-      "losses": 6,
-      "bonusPoints": 2,
-      "points": 20,
-      "goalsFor": 37,
-      "goalsAgainst": 32,
-      "goalDifference": 5
     },
     {
       "rank": 12,
@@ -237,15 +237,15 @@
       "rank": 17,
       "team": "KooKoo",
       "teamId": 461765763,
-      "games": 15,
+      "games": 16,
       "wins": 1,
       "ties": 3,
-      "losses": 11,
+      "losses": 12,
       "bonusPoints": 1,
       "points": 7,
-      "goalsFor": 34,
-      "goalsAgainst": 62,
-      "goalDifference": -28
+      "goalsFor": 36,
+      "goalsAgainst": 66,
+      "goalDifference": -30
     }
   ]
 }
