@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T20:33:08Z",
+  "updated": "2026-10-22T20:30:21Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -95,6 +95,20 @@
     },
     {
       "rank": 7,
+      "team": "JYP",
+      "teamId": 219244634,
+      "games": 13,
+      "wins": 8,
+      "ties": 2,
+      "losses": 3,
+      "bonusPoints": 1,
+      "points": 27,
+      "goalsFor": 40,
+      "goalsAgainst": 34,
+      "goalDifference": 6
+    },
+    {
+      "rank": 8,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 16,
@@ -106,20 +120,6 @@
       "goalsFor": 45,
       "goalsAgainst": 43,
       "goalDifference": 2
-    },
-    {
-      "rank": 8,
-      "team": "JYP",
-      "teamId": 219244634,
-      "games": 12,
-      "wins": 7,
-      "ties": 2,
-      "losses": 3,
-      "bonusPoints": 1,
-      "points": 24,
-      "goalsFor": 37,
-      "goalsAgainst": 32,
-      "goalDifference": 5
     },
     {
       "rank": 9,
@@ -153,15 +153,15 @@
       "rank": 11,
       "team": "HPK",
       "teamId": 55786244,
-      "games": 15,
+      "games": 16,
       "wins": 5,
       "ties": 3,
-      "losses": 7,
+      "losses": 8,
       "bonusPoints": 3,
       "points": 21,
-      "goalsFor": 33,
-      "goalsAgainst": 41,
-      "goalDifference": -8
+      "goalsFor": 35,
+      "goalsAgainst": 44,
+      "goalDifference": -9
     },
     {
       "rank": 12,
