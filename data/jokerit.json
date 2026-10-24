@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-24T15:31:16.385956+00:00",
+  "updated": "2026-10-24T15:46:19.978344+00:00",
   "games": [
     {
       "id": 2701280,
@@ -4277,6 +4277,17 @@
           "line": null,
           "role": "GOALIE",
           "roleCode": "MV",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 32766066,
+          "firstName": "Jesse",
+          "lastName": "Liuksiala",
+          "jersey": 14,
+          "line": null,
+          "role": "STRIKER",
+          "roleCode": "H",
           "captain": false,
           "alternateCaptain": false
         },
