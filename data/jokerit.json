@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-10-31T17:46:20.645672+00:00",
+  "updated": "2026-10-31T18:01:17.935445+00:00",
   "games": [
     {
       "id": 2701280,
@@ -6049,9 +6049,9 @@
       "homeGoals": 5,
       "awayGoals": 4,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
-      "finishLabel": "",
+      "ended": true,
+      "finishedType": "ENDED_DURING_EXTENDED_GAME_TIME",
+      "finishLabel": "JA",
       "rink": "Jyväskylän jäähalli",
       "city": "JYVÄSKYLÄ",
       "lineupPublished": true,
