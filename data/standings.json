@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:25:09Z",
+  "updated": "2026-11-01T21:56:58Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -139,15 +139,15 @@
       "rank": 10,
       "team": "Tappara",
       "teamId": 362185137,
-      "games": 18,
+      "games": 19,
       "wins": 7,
       "ties": 5,
-      "losses": 6,
+      "losses": 7,
       "bonusPoints": 2,
       "points": 28,
       "goalsFor": 51,
-      "goalsAgainst": 43,
-      "goalDifference": 8
+      "goalsAgainst": 46,
+      "goalDifference": 5
     },
     {
       "rank": 11,
@@ -195,15 +195,15 @@
       "rank": 14,
       "team": "HPK",
       "teamId": 55786244,
-      "games": 19,
-      "wins": 5,
+      "games": 20,
+      "wins": 6,
       "ties": 3,
       "losses": 11,
       "bonusPoints": 3,
-      "points": 21,
-      "goalsFor": 39,
+      "points": 24,
+      "goalsFor": 42,
       "goalsAgainst": 55,
-      "goalDifference": -16
+      "goalDifference": -13
     },
     {
       "rank": 15,
