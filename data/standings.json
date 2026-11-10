@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T21:56:58Z",
+  "updated": "2026-11-10T01:26:46Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -95,6 +95,20 @@
     },
     {
       "rank": 7,
+      "team": "TPS",
+      "teamId": 651304385,
+      "games": 20,
+      "wins": 9,
+      "ties": 4,
+      "losses": 7,
+      "bonusPoints": 2,
+      "points": 33,
+      "goalsFor": 56,
+      "goalsAgainst": 50,
+      "goalDifference": 6
+    },
+    {
+      "rank": 8,
       "team": "Kärpät",
       "teamId": 495643563,
       "games": 20,
@@ -106,20 +120,6 @@
       "goalsFor": 53,
       "goalsAgainst": 52,
       "goalDifference": 1
-    },
-    {
-      "rank": 8,
-      "team": "TPS",
-      "teamId": 651304385,
-      "games": 19,
-      "wins": 9,
-      "ties": 3,
-      "losses": 7,
-      "bonusPoints": 1,
-      "points": 31,
-      "goalsFor": 53,
-      "goalsAgainst": 48,
-      "goalDifference": 5
     },
     {
       "rank": 9,
@@ -167,15 +167,15 @@
       "rank": 12,
       "team": "KalPa",
       "teamId": 859884935,
-      "games": 18,
+      "games": 19,
       "wins": 8,
-      "ties": 1,
+      "ties": 2,
       "losses": 9,
       "bonusPoints": 0,
-      "points": 25,
-      "goalsFor": 46,
-      "goalsAgainst": 41,
-      "goalDifference": 5
+      "points": 26,
+      "goalsFor": 48,
+      "goalsAgainst": 44,
+      "goalDifference": 4
     },
     {
       "rank": 13,
