@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-11-13T16:31:23.730614+00:00",
+  "updated": "2026-11-13T16:46:19.777845+00:00",
   "games": [
     {
       "id": 2701280,
@@ -6727,7 +6727,7 @@
       "homeTeamId": "651304385:tps",
       "awayTeamId": "238306801:jokerit",
       "homeGoals": 0,
-      "awayGoals": 0,
+      "awayGoals": 2,
       "started": true,
       "ended": false,
       "finishedType": "ACTIVE_OR_NOT_STARTED",
@@ -7008,6 +7008,17 @@
           "line": null,
           "role": "DEFENSEMAN",
           "roleCode": "P",
+          "captain": false,
+          "alternateCaptain": false
+        },
+        {
+          "id": 29924154,
+          "firstName": "Veini",
+          "lastName": "Vehviläinen",
+          "jersey": 30,
+          "line": null,
+          "role": "GOALIE",
+          "roleCode": "MV",
           "captain": false,
           "alternateCaptain": false
         },
