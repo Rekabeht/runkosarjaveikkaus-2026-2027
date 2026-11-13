@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-11-13T19:01:19.029421+00:00",
+  "updated": "2026-11-13T19:16:22.080035+00:00",
   "games": [
     {
       "id": 2701280,
@@ -6729,8 +6729,8 @@
       "homeGoals": 4,
       "awayGoals": 3,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "ended": true,
+      "finishedType": "ENDED_DURING_REGULAR_GAME_TIME",
       "finishLabel": "",
       "rink": "Turun Monitoimihalli Oy",
       "city": "TURKU",
