@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T22:16:17Z",
+  "updated": "2026-11-15T22:44:04Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -39,6 +39,20 @@
     },
     {
       "rank": 3,
+      "team": "Ilves",
+      "teamId": 951626834,
+      "games": 23,
+      "wins": 12,
+      "ties": 4,
+      "losses": 7,
+      "bonusPoints": 3,
+      "points": 43,
+      "goalsFor": 62,
+      "goalsAgainst": 45,
+      "goalDifference": 17
+    },
+    {
+      "rank": 4,
       "team": "Jukurit",
       "teamId": 292293444,
       "games": 23,
@@ -52,7 +66,7 @@
       "goalDifference": 14
     },
     {
-      "rank": 4,
+      "rank": 5,
       "team": "Ässät",
       "teamId": 679171680,
       "games": 23,
@@ -66,32 +80,18 @@
       "goalDifference": 2
     },
     {
-      "rank": 5,
-      "team": "Ilves",
-      "teamId": 951626834,
-      "games": 22,
-      "wins": 11,
-      "ties": 4,
-      "losses": 7,
-      "bonusPoints": 3,
-      "points": 40,
-      "goalsFor": 59,
-      "goalsAgainst": 44,
-      "goalDifference": 15
-    },
-    {
       "rank": 6,
       "team": "SaiPa",
       "teamId": 933686567,
-      "games": 19,
+      "games": 20,
       "wins": 10,
       "ties": 4,
-      "losses": 5,
+      "losses": 6,
       "bonusPoints": 3,
       "points": 37,
-      "goalsFor": 56,
-      "goalsAgainst": 41,
-      "goalDifference": 15
+      "goalsFor": 57,
+      "goalsAgainst": 44,
+      "goalDifference": 13
     },
     {
       "rank": 7,
