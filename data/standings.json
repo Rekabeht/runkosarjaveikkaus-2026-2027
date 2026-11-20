@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T00:14:48Z",
+  "updated": "2026-11-20T00:33:14Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -153,18 +153,32 @@
       "rank": 11,
       "team": "Tappara",
       "teamId": 362185137,
-      "games": 21,
+      "games": 22,
       "wins": 7,
-      "ties": 5,
+      "ties": 6,
       "losses": 9,
       "bonusPoints": 2,
-      "points": 28,
-      "goalsFor": 53,
-      "goalsAgainst": 54,
-      "goalDifference": -1
+      "points": 29,
+      "goalsFor": 55,
+      "goalsAgainst": 57,
+      "goalDifference": -2
     },
     {
       "rank": 12,
+      "team": "Sport",
+      "teamId": 626537494,
+      "games": 22,
+      "wins": 7,
+      "ties": 5,
+      "losses": 10,
+      "bonusPoints": 2,
+      "points": 28,
+      "goalsFor": 46,
+      "goalsAgainst": 63,
+      "goalDifference": -17
+    },
+    {
+      "rank": 13,
       "team": "Pelicans",
       "teamId": 875886777,
       "games": 21,
@@ -178,7 +192,7 @@
       "goalDifference": -2
     },
     {
-      "rank": 13,
+      "rank": 14,
       "team": "HPK",
       "teamId": 55786244,
       "games": 22,
@@ -192,7 +206,7 @@
       "goalDifference": -13
     },
     {
-      "rank": 14,
+      "rank": 15,
       "team": "KalPa",
       "teamId": 859884935,
       "games": 22,
@@ -204,20 +218,6 @@
       "goalsFor": 53,
       "goalsAgainst": 59,
       "goalDifference": -6
-    },
-    {
-      "rank": 15,
-      "team": "Sport",
-      "teamId": 626537494,
-      "games": 21,
-      "wins": 7,
-      "ties": 4,
-      "losses": 10,
-      "bonusPoints": 1,
-      "points": 26,
-      "goalsFor": 43,
-      "goalsAgainst": 61,
-      "goalDifference": -18
     },
     {
       "rank": 16,
