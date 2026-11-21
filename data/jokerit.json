@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-11-21T17:31:19.847546+00:00",
+  "updated": "2026-11-21T17:46:32.351373+00:00",
   "games": [
     {
       "id": 2701280,
@@ -8078,8 +8078,8 @@
       "homeGoals": 3,
       "awayGoals": 5,
       "started": true,
-      "ended": false,
-      "finishedType": "ACTIVE_OR_NOT_STARTED",
+      "ended": true,
+      "finishedType": "ENDED_DURING_REGULAR_GAME_TIME",
       "finishLabel": "",
       "rink": "Oulun jäähalli",
       "city": "OULU",
