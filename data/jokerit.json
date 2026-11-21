@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-11-21T15:46:21.920086+00:00",
+  "updated": "2026-11-21T16:01:24.224236+00:00",
   "games": [
     {
       "id": 2701280,
@@ -8075,7 +8075,7 @@
       "awayTeam": "Jokerit",
       "homeTeamId": "495643563:kärpät",
       "awayTeamId": "238306801:jokerit",
-      "homeGoals": 0,
+      "homeGoals": 1,
       "awayGoals": 1,
       "started": true,
       "ended": false,
