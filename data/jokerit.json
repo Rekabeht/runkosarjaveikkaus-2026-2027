@@ -2,7 +2,7 @@
   "season": "2026-2027",
   "team": "Jokerit",
   "teamId": "238306801:jokerit",
-  "updated": "2026-11-25T18:46:22.345785+00:00",
+  "updated": "2026-11-25T19:01:21.521761+00:00",
   "games": [
     {
       "id": 2701280,
@@ -8404,7 +8404,7 @@
       "awayTeam": "KooKoo",
       "homeTeamId": "238306801:jokerit",
       "awayTeamId": "461765763:kookoo",
-      "homeGoals": 2,
+      "homeGoals": 3,
       "awayGoals": 4,
       "started": true,
       "ended": false,
