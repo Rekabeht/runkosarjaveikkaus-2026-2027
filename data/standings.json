@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T01:44:31Z",
+  "updated": "2026-11-27T01:39:59Z",
   "season": "2026-2027",
   "tournament": "runkosarja",
   "source": "https://liiga.fi/api/v2/teams/stats?seasonFrom=2027&seasonTo=2027&tournament=runkosarja&dataType=standings",
@@ -13,15 +13,15 @@
       "rank": 1,
       "team": "Ilves",
       "teamId": 951626834,
-      "games": 26,
+      "games": 27,
       "wins": 15,
-      "ties": 4,
+      "ties": 5,
       "losses": 7,
-      "bonusPoints": 3,
-      "points": 52,
-      "goalsFor": 77,
-      "goalsAgainst": 51,
-      "goalDifference": 26
+      "bonusPoints": 4,
+      "points": 54,
+      "goalsFor": 80,
+      "goalsAgainst": 53,
+      "goalDifference": 27
     },
     {
       "rank": 2,
@@ -153,15 +153,15 @@
       "rank": 11,
       "team": "Sport",
       "teamId": 626537494,
-      "games": 24,
+      "games": 25,
       "wins": 7,
-      "ties": 7,
+      "ties": 8,
       "losses": 10,
       "bonusPoints": 4,
-      "points": 32,
-      "goalsFor": 50,
-      "goalsAgainst": 65,
-      "goalDifference": -15
+      "points": 33,
+      "goalsFor": 52,
+      "goalsAgainst": 68,
+      "goalDifference": -16
     },
     {
       "rank": 12,
